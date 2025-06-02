@@ -191,4 +191,14 @@ Resultado: Desconocido ❓
 - Árbol sintáctico para código válido
 - Simulador de Máquina de Turing integrado
 - Interfaz moderna y responsive con Bootstrap
-- Tema oscuro para el editor (Monokai) 
+- Tema oscuro para el editor (Monokai)
+
+## Capturas de pantalla
+- Pantalla inicial 
+![Image Alt](https://github.com/RafaelMR204/MINI-IDE-/blob/3c5da2ac365949300005d5f2a6c35d67a5e7c4ac/Captura%20de%20pantalla%202025-06-02%20095048.png) 
+Análisis Lexico
+![Image Alt](https://github.com/RafaelMR204/MINI-IDE-/blob/3c5da2ac365949300005d5f2a6c35d67a5e7c4ac/Captura%20de%20pantalla%202025-06-02%20095224.png) 
+Análisis Sintactico 
+![Image Alt](https://github.com/RafaelMR204/MINI-IDE-/blob/3c5da2ac365949300005d5f2a6c35d67a5e7c4ac/Captura%20de%20pantalla%202025-06-02%20095258.png)
+Maquina de Turing
+![Image Alt](https://github.com/RafaelMR204/MINI-IDE-/blob/3c5da2ac365949300005d5f2a6c35d67a5e7c4ac/Captura%20de%20pantalla%202025-06-02%20095315.png)
