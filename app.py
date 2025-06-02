@@ -6,8 +6,8 @@ from turing_machine import ejecutar_maquina_turing
 app = Flask(__name__)
 
 STUDENT_INFO = {
-    "name": "Victor Manuel Dominguez Santiago",
-    "professor": "ING Kevin David Molina Gomez",  # Replace with actual professor name
+    "name": "Rafael Monsivais Robles",
+    "professor": "ING Kevin David Molina Gomez",
 }
 
 @app.route('/')

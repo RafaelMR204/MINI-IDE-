@@ -1,48 +1,109 @@
-# Mini IDE Web
+# Mini IDE Web - Analizador Léxico y Sintáctico
 
-## Estudiante
-- **Nombre:** Victor Manuel Dominguez Santiago
-- **Materia:** Lenguajes y Automatas
+Este proyecto es un IDE web que implementa un analizador léxico, sintáctico y una máquina de Turing. Desarrollado como parte del curso de Compiladores.
+
+## Autor
+- **Nombre:** Rafael Monsivais Robles
 - **Profesor:** ING Kevin David Molina Gomez
 
-## Descripción del Proyecto
-Este proyecto implementa un IDE web que incluye:
-- Análisis léxico con detección de tokens y errores
-- Análisis sintáctico con generación de árbol
-- Simulación de Máquina de Turing para clasificación Humano/Robot
+## Características
+
+- 🔍 **Análisis Léxico**: Identifica y clasifica los tokens en el código fuente
+- 🌳 **Análisis Sintáctico**: Analiza la estructura gramatical del código
+- 🤖 **Máquina de Turing**: Implementación de un simulador de máquina de Turing
+- 🎨 **Interfaz Moderna**: Diseño oscuro moderno con editor de código integrado
+- 📝 **Editor de Código**: Editor con resaltado de sintaxis
 
 ## Requisitos
-- Python 3.x
+
+- Python 3.8 o superior
 - Flask
 - Navegador web moderno
 
 ## Instalación
-1. Clonar el repositorio
-2. Crear un entorno virtual:
-   ```bash
-   python -m venv venv
-   ```
-3. Activar el entorno virtual:
-   - Windows:
-     ```bash
-     venv\Scripts\activate
-     ```
-   - Linux/Mac:
-     ```bash
-     source venv/bin/activate
-     ```
-4. Instalar dependencias:
-   ```bash
-   pip install flask
-   ```
 
-## Ejecución
-1. Activar el entorno virtual (si no está activo)
-2. Ejecutar el servidor:
-   ```bash
-   python app.py
-   ```
-3. Abrir en el navegador: http://localhost:5000
+1. Clonar el repositorio:
+```bash
+git clone [URL-del-repositorio]
+cd [nombre-del-directorio]
+```
+
+2. Crear un entorno virtual (recomendado):
+```bash
+python -m venv venv
+```
+
+3. Activar el entorno virtual:
+- Windows:
+```bash
+venv\Scripts\activate
+```
+- Linux/Mac:
+```bash
+source venv/bin/activate
+```
+
+4. Instalar las dependencias:
+```bash
+pip install -r requirements.txt
+```
+
+## Uso
+
+1. Iniciar el servidor:
+```bash
+python app.py
+```
+
+2. Abrir el navegador y visitar:
+```
+http://localhost:5000
+```
+
+## Funcionalidades
+
+### Análisis Léxico
+- Identifica tokens en el código fuente
+- Clasifica elementos como variables, operadores, números, etc.
+- Muestra errores léxicos encontrados
+
+### Análisis Sintáctico
+- Verifica la estructura gramatical del código
+- Genera un árbol sintáctico
+- Identifica errores en la estructura del código
+
+### Máquina de Turing
+- Simula una máquina de Turing
+- Procesa cadenas de entrada
+- Determina si una cadena pertenece al lenguaje de "humanos" o "robots"
+
+## Estructura del Proyecto
+
+```
+mini-ide-web/
+├── app.py              # Aplicación principal Flask
+├── lexer.py           # Implementación del analizador léxico
+├── parser_custom.py   # Implementación del analizador sintáctico
+├── turing_machine.py  # Implementación de la máquina de Turing
+├── static/           
+│   ├── style.css      # Estilos CSS
+│   └── script.js      # JavaScript del cliente
+├── templates/
+│   └── index.html     # Plantilla principal
+└── requirements.txt   # Dependencias del proyecto
+```
+
+## Tecnologías Utilizadas
+
+- **Backend**: Python, Flask
+- **Frontend**: HTML5, CSS3, JavaScript
+- **Editor**: CodeMirror
+- **Estilos**: Bootstrap 5
+- **Iconos**: Bootstrap Icons
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
 ## Lenguaje Personalizado
 
